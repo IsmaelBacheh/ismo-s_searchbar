@@ -1,0 +1,54 @@
+body {
+    display:flex;
+    flex-direction: column;
+}
+.G-option{
+    width:100%;
+    height:15px;
+    padding-left: 10px;
+    display:flex;
+    justify-content: start;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.G-logo{
+    height:90px;
+    display: block;
+    margin-bottom: 30px;
+    padding-top:50px
+}
+.search{ 
+    flex:1;
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    padding-right:300px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    line-height:normal;
+    background-color:#e8eaed;;
+    border-radius: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.search :hover{
+    background-color: rgb(228, 224, 224);
+    box-shadow: 2px, 3px, 2px, rgba(0, 0, 0, 0.2);
+}
+.global-button{
+    display:flex;
+    justify-content:flex-start;
+}
+.button{
+    margin-left: 15px;
+    border-radius: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button:hover{
+    border:1px solid black;
+}

@@ -1,0 +1,28 @@
+button{
+   padding:10px 8px 10px 8px;
+}
+
+.GitHub{
+      background-color : rgb(46,164,79);
+      color:white;
+      border : none;
+      border-radius:3px;
+      font-weight:bold;
+      cursor:pointer;
+      margin-top:1px;
+      margin-left:1x;
+
+      
+   }
+
+   .GitHub:hover{
+      background-color : yellow;
+      color:rgb(46,164,79);
+      padding:13px 5px 7px 11px;
+      box-shadow:3px 3px 3px black;
+   }
+
+   .GitHub:active{
+      padding:7px 11px 13px 5px;
+      box-shadow:none;
+   }
